@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SMfamily</key>
+	<string>MacPro</string>
+	<key>SMproductname</key>
+	<string>MacPro5,1</string>
+	<key>SMboardproduct</key>
+	<string>Mac-F221BEC8</string>
+	<key>SMserial</key>
+	<string>G8031788GWR</string>
+	<key>SMbiosversion</key>
+	<string>MP51.88Z.007F.B03.1010071432</string>
+</dict>
+</plist>
