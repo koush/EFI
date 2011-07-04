@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.stickpins.driver.LegacyHDAController</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>LegacyHDA Controller Driver</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>99</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>BuiltInHDA</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleHDAController</string>
+			<key>HDAConfigDefault</key>
+			<array>
+				<dict>
+					<key>CodecID</key>
+					<integer>283904130</integer>
+					<key>ConfigData</key>
+					<data>
+					AUcc8AFHHQABRx4RAUcfQAFXHDABVx1AAVce
+					AQFXHwEBZxwPAWcdAAFnHgABZx9AAXccDwF3
+					HQABdx4AAXcfQAGHHBABhx0BAYceoAGHH5AB
+					lxwRAZcdAQGXHqABlx+QAaccIAGnHTABpx6B
+					AacfAQG3HFABtx1wAbceIQG3HwEB9xwwAfcd
+					4AH3HsUB9x8BAeccYAHnHeAB5x5FAecfAQ==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>882</integer>
+					<key>PreservePinConfigurations</key>
+					<true/>
+				</dict>
+			</array>
+			<key>IOClass</key>
+			<string>AppleHDAController</string>
+			<key>IOPCIClassMatch</key>
+			<string>0x04020000&amp;0xFFFE0000 0x04030000&amp;0xFFFE0000</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>PostConstructionInitialization</key>
+			<array>
+				<dict>
+					<key>Layouts</key>
+					<array>
+						<integer>36</integer>
+						<integer>38</integer>
+						<integer>52</integer>
+					</array>
+					<key>widgets</key>
+					<array>
+						<dict>
+							<key>MicAttributes</key>
+							<integer>28</integer>
+							<key>MicInfo</key>
+							<string>Sampled on rising edge</string>
+							<key>NodeID</key>
+							<integer>25</integer>
+							<key>PinConfigDefault</key>
+							<integer>44145744</integer>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>OSBundleCompatibleVersion</key>
+	<string>1.0.0d1</string>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IOHDAFamily</key>
+		<string>1.0.0d1</string>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>1.1</string>
+		<key>com.apple.kpi.bsd</key>
+		<string>8.0.0b3</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>8.0.0b3</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>8.0.0b3</string>
+		<key>com.apple.kpi.mach</key>
+		<string>8.0.0b3</string>
+	</dict>
+</dict>
+</plist>
