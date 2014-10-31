@@ -2,22 +2,22 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>Theme</key>
-    <string>LoginToLion</string>
-    <key>GenerateCStates</key>
-	<string>Yes</string>
-	<key>GeneratePStates</key>
-	<string>Yes</string>
-	<key>Kernel</key>
-	<string>mach_kernel</string>
-	<key>Kernel Flags</key>
-	<string></string>
+	<key>Boot Banner</key>
+	<string>No</string>
 	<key>EthernetBuiltIn</key>
-	<string>yes</string>
+	<string>Yes</string>
 	<key>GraphicsEnabler</key>
-   	<string>Yes</string>
-	<key>AtiConfig</key>
-   	<string>Duckweed</string>
+	<string>No</string>
+	<key>IGPEnabler</key>
+	<string>Yes</string>
+	<key>Instant Menu</key>
+	<string>Yes</string>
+	<key>Kernel Flags</key>
+	<string>kext-dev-mode=1</string>
+	<key>Legacy Logo</key>
+	<string>Yes</string>
+	<key>UseKernelCache</key>
+	<string>No</string>
 	<key>Graphics Mode</key>
 	<string>2560x1600x32</string>
 	<key>Timeout</key>

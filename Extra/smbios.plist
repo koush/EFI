@@ -2,15 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>SMfamily</key>
-	<string>MacPro</string>
-	<key>SMproductname</key>
-	<string>MacPro5,1</string>
-	<key>SMboardproduct</key>
-	<string>Mac-F221BEC8</string>
-	<key>SMserial</key>
-	<string>G8031788GWR</string>
 	<key>SMbiosversion</key>
-	<string>MP51.88Z.007F.B03.1010071432</string>
+	<string>UniBeast.tonymacx86.com</string>
+	<key>SMboardproduct</key>
+	<string>Mac-F42C88C8</string>
+	<key>SMfamily</key>
+	<string>Mac Pro</string>
+	<key>SMproductname</key>
+	<string>MacPro3,1</string>
+	<key>SMserial</key>
+	<string>G8837KYP5J4</string>
 </dict>
 </plist>
